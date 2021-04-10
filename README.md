@@ -39,7 +39,6 @@
 ###### Output:
 
 `
-sudo systemctl status mongod.service
 ● mongod.service - MongoDB Database Server
    Loaded: loaded (/lib/systemd/system/mongod.service; enabled; vendor preset: enabled)
    Active: active (running) since Thu 2021-04-08 07:48:49 UTC; 30s ago
