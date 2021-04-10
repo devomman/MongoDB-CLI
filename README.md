@@ -38,7 +38,8 @@
 
 ###### Output:
 
-`sudo systemctl status mongod.service
+`
+sudo systemctl status mongod.service
 ● mongod.service - MongoDB Database Server
    Loaded: loaded (/lib/systemd/system/mongod.service; enabled; vendor preset: enabled)
    Active: active (running) since Thu 2021-04-08 07:48:49 UTC; 30s ago
@@ -46,7 +47,6 @@
  Main PID: 25924 (mongod)
    CGroup: /system.slice/mongod.service
            └─25924 /usr/bin/mongod --config /etc/mongod.conf
-
 Apr 08 07:48:49 ip-172-31-18-128 systemd[1]: Started MongoDB Database Server.
 `
 #### Stop MongoDB Service:
